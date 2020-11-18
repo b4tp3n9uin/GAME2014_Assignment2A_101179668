@@ -2,6 +2,17 @@
 using UnityEngine;
 using System;
 
+/*
+* Source File Name: AudioManager.cs
+* Student Name: Matthew Makepeace
+* Student ID: 101179668
+* Date Last Modified: 11/16/2020
+* Creates the sound array and manages the Audio in the game.
+
+* Modifications:  * Create an array of sounds.
+                  * Create a play function so the array can find the sound name, and play it.
+*/
+
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
